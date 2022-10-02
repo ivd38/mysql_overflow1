@@ -66,7 +66,7 @@ There are two ways to test this vulnerability:
 2) i leave this as an exercise
 
 ```
-debug session:
+Debug session:
 ```
 Thread 2.1 "ndbd" received signal SIGSEGV, Segmentation fault.
 [Switching to Thread 0x7ffff76dc080 (LWP 152682)]

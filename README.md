@@ -63,8 +63,7 @@ Also, you can't connect to ndbd as node 3(mysqld) if mysqld is running.
 
 There are several ways to test this vulnerability:
 1) quick way to test the bug - do not start mysqld, you can use t1.py 
-2) do not stop mysqld, you can restart all services via ndbd_mgmd and send requests while they are restarting, i leave this as an exercise
-
+2) do not stop mysqld, you can restart all services via ndbd_mgmd and send requests  during restart
 
 ```
 Debug session:
